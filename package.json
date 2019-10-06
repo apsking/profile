@@ -21,7 +21,8 @@
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "add-domain": "echo \"www.gotalex.com\" > public/CNAME",
+    "deploy": "gatsby build --prefix-paths && npm run add-domain && gh-pages -d public"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
