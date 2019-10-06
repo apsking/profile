@@ -11,10 +11,14 @@ const Header = (props) => (
                 <h1>Got Alex?</h1>
                 <p>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     Developer. Designer. Dreamer.
 =======
                     Developer. Designer. Tinkerer. Dreamer.
 >>>>>>> Revert "Updates"
+=======
+                    Developer. Designer. Dreamer.
+>>>>>>> Add content.
                 </p>
             </div>
         </div>
