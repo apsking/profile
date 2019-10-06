@@ -1,2 +1,2 @@
-# profile
-Alex's public profile
+# Got Alex
+Public-facing profile page for Got Alex?
