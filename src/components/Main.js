@@ -39,7 +39,7 @@ class Main extends React.Component {
             <a href="https://www.amazon.com/Alexander-King-My-Pet-Rock/dp/B073VDPTCW"> Alexa's
             in-skill purchasing</a> and really love how that opens the market
             for voice applications. I've tinkered with things like the smarthome automation
-            using AWS IoT, keeping up with the latest JS frameworks, trying to
+            using AWS IoT, kept up with the latest JS frameworks, tried to
             harness the AWS CDK to maximize its potential, and much more.
           </p>
           <p>
