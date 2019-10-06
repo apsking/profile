@@ -1,10 +1,15 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 >>>>>>> Add default content.
+=======
+import pic01 from '../images/pic01.jpg'
+import pic02 from '../images/pic02.jpg'
+>>>>>>> Revert "Updates"
 
 class Main extends React.Component {
   render() {
@@ -32,7 +37,10 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Revert "Updates"
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -43,6 +51,7 @@ class Main extends React.Component {
             magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
             By the way, check out my <a href="#work">awesome work</a>.
           </p>
+<<<<<<< HEAD
 >>>>>>> Add default content.
           <p>
             Hello! My name is Alex. I'm a life-long student, a software engineer by trade, and a
@@ -53,6 +62,21 @@ class Main extends React.Component {
           </p>
 <<<<<<< HEAD
 =======
+=======
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
+            libero eu nibh porttitor fermentum. Nullam venenatis erat id
+            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
+            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
+            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
+            lectus. Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. In non lorem sit amet elit
+            placerat maximus. Pellentesque aliquam maximus risus, vel sed
+            vehicula.
+          </p>
+>>>>>>> Revert "Updates"
           {close}
         </article>
 
@@ -67,6 +91,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+<<<<<<< HEAD
 >>>>>>> Add default content.
           <p>
             Most recently, I have been interested in building voice applications
@@ -117,6 +142,25 @@ class Main extends React.Component {
         </article>
 =======
 >>>>>>> Add default content.
+=======
+          <p>
+            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
+            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
+            urna nisi, fringila lorem et vehicula lacinia quam. Integer
+            sollicitudin mauris nec lorem luctus ultrices.
+          </p>
+          <p>
+            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
+            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
+            Pellentesque condimentum sem. In efficitur ligula tate urna.
+            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
+            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
+            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
+            tempus.
+          </p>
+          {close}
+        </article>
+>>>>>>> Revert "Updates"
       </div>
     )
   }
