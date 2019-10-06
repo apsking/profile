@@ -1,18 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
->>>>>>> Add default content.
-=======
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
->>>>>>> Revert "Updates"
-=======
->>>>>>> Add content.
 
 class Main extends React.Component {
   render() {
@@ -39,17 +26,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Revert "Updates"
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
-=======
->>>>>>> Add content.
           <p>
             Hello! My name is Alex. I'm a life-long student, a software engineer by trade, and a
             tinkerer at heart. I have a full-stack background and have worked
@@ -57,48 +33,6 @@ class Main extends React.Component {
             Check out my <a href="https://www.linkedin.com/in/apsking/">LinkedIn</a> for
             a little more about me.
           </p>
-<<<<<<< HEAD
->>>>>>> Add default content.
-          <p>
-            Hello! My name is Alex. I'm a life-long student, a software engineer by trade, and a
-            tinkerer at heart. I have a full-stack background and have worked
-            at places like Microsoft and Amazon.
-            Check out my <a href="https://www.linkedin.com/in/apsking/">LinkedIn</a> for
-            a little more about me.
-          </p>
-<<<<<<< HEAD
-=======
-=======
-          <p>
-            Most recently, I have been interested in building voice applications
-            on AWS and Amazon Alexa. I was one of the first developers to integrate
-            <a href="https://www.amazon.com/Alexander-King-My-Pet-Rock/dp/B073VDPTCW"> Alexa's
-            in-skill purchasing</a> and really love how that opens the market
-            for voice applications. I've tinkered with things like the smarthome automation
-            using AWS IoT, keeping up with the latest JS frameworks, trying to
-            harness the AWS CDK to maximize its potential, and much more.
-          </p>
-          <p>
-            I love writing beautiful code and using technology to make our lives easier, more productive, and more enjoyable.
-          </p>
->>>>>>> Revert "Updates"
-          {close}
-        </article>
-
-        <article
-          id="projects"
-          className={`${this.props.article === 'projects' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Projects</h2>
-<<<<<<< HEAD
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-<<<<<<< HEAD
->>>>>>> Add default content.
           <p>
             Most recently, I have been interested in building voice applications
             on AWS and Amazon Alexa. I was one of the first developers to integrate
@@ -113,7 +47,6 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
-<<<<<<< HEAD
 
         <article
           id="projects"
@@ -123,8 +56,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Projects</h2>
-=======
->>>>>>> Add content.
           <h3>
 			Alexa Skill - My Pet Rock
 		  </h3>
@@ -137,7 +68,6 @@ class Main extends React.Component {
 		  <p>
 			<a href="https://www.amazon.com/Alexander-King-Interview-Prep/dp/B01LW7L2VD" target="_blank"rel="noopener noreferrer">Interview Prep</a> is your one-stop skill to help you prepare for your next interview! It has hundreds of questions for a variety of different job types and areas of work. For best results, ask Interview Prep a few questions every day to prepare your answers. Consider answering directly into a mirror and focusing not only on your answer, but also your body language!
 		  </p>
-<<<<<<< HEAD
           <p>
             This skill was recently featured on <a href="https://lifehacker.com/how-to-use-alexa-to-help-you-prep-for-a-job-interview-1833024806">LifeHacker!</a>
           </p>
@@ -149,29 +79,6 @@ class Main extends React.Component {
 		  </p>
           {close}
         </article>
-=======
->>>>>>> Add default content.
-=======
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-=======
->>>>>>> Add content.
-          <p>
-            This skill was recently featured on <a href="https://lifehacker.com/how-to-use-alexa-to-help-you-prep-for-a-job-interview-1833024806">LifeHacker!</a>
-          </p>
-          <h3>
-			Alexa Skill - Ancient Alchemy
-		  </h3>
-		  <p>
-			In <a href="https://www.amazon.com/Alexander-King-Ancient-Alchemy/dp/B074F4NHJ8" target="_blank"rel="noopener noreferrer">Ancient Alchemy</a>, you take on the challenge of restoring the Library of Elements by finding recipes for all of the elements in the realm. As The Alchemist, you start by combining primitive elements and then continue to use your findings to make many more! This creative journey will immerse you in its world and challenge your abilities!
-		  </p>
-          {close}
-        </article>
->>>>>>> Revert "Updates"
       </div>
     )
   }
