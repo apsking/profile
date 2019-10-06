@@ -29,14 +29,14 @@ class Main extends React.Component {
           <p>
             Hello! My name is Alex. I'm a life-long student, a software engineer by trade, and a
             tinkerer at heart. I have a full-stack background and have worked
-            at places like Microsoft and Amazon.
-            Check out my <a href="https://www.linkedin.com/in/apsking/">LinkedIn</a> for
+            at a variety of places, including Microsoft and Amazon.
+            Check out my <a href="https://www.linkedin.com/in/apsking/" target="_blank" rel="noopener noreferrer">LinkedIn</a> for
             a little more about me.
           </p>
           <p>
             Most recently, I have been interested in building voice applications
             on AWS and Amazon Alexa. I was one of the first developers to integrate
-            <a href="https://www.amazon.com/Alexander-King-My-Pet-Rock/dp/B073VDPTCW"> Alexa's
+            <a href="https://www.amazon.com/Alexander-King-My-Pet-Rock/dp/B073VDPTCW" target="_blank" rel="noopener noreferrer"> Alexa's
             in-skill purchasing</a> and really love how that opens the market
             for voice applications. I've tinkered with things like the smarthome automation
             using AWS IoT, kept up with the latest JS frameworks, tried to
@@ -60,7 +60,7 @@ class Main extends React.Component {
             Instagram - Puppy Can't Hang
           </h3>
           <p>
-            For a long time, I wanted to create an Instagram following. I decided
+            For a long time, I wanted to build an Instagram following. I decided
             to create <a href="https://www.instagram.com/puppy.cant.hang/">Puppy Can't Hang</a> after
             finding the niche that I just couldn't pass up - Sleeping puppies! Puppy
             Can't Hang is all about sharing those precious moments of our four-legged
@@ -72,10 +72,13 @@ class Main extends React.Component {
 		  <p>
 			In <a href="https://www.amazon.com/Alexander-King-My-Pet-Rock/dp/B073VDPTCW" target="_blank" rel="noopener noreferrer">My Pet Rock</a>,
             you get to take care of your own pet. Take your new pet on walks,
-            play games with it, and feed it regularly, so that it grows big and
+            play games with it, and feed it regularly so that it grows big and
             strong! Your pet will grow up over time to learn more skills and tricks.
-            Join nearly than 500,000 other people and see what it's all about!
+            Join nearly 500,000 other people and see what it's all about!
 		  </p>
+          <p>
+            Check out a review in <a href="https://usa2day.podbean.com/e/dtd282-my-pet-rock/" target="_blank" rel="noopener noreferrer">this podcast</a>.
+          </p>
           <h3>
 			Alexa Skill - Interview Prep
 		  </h3>
@@ -83,13 +86,13 @@ class Main extends React.Component {
 			<a href="https://www.amazon.com/Alexander-King-Interview-Prep/dp/B01LW7L2VD" target="_blank"rel="noopener noreferrer">Interview Prep</a> is
             your one-stop skill to help you prepare for your next interview!
             It has hundreds of questions for a variety of different job types
-            and areas of work. For best results, ask Interview Prep a few
+            and areas of work. For best results, ask Interview Prep for a few
             questions every day to prepare your answers. Consider answering
             directly into a mirror and focusing not only on your answer, but
             also your body language!
 		  </p>
           <p>
-            This skill was recently featured on <a href="https://lifehacker.com/how-to-use-alexa-to-help-you-prep-for-a-job-interview-1833024806">LifeHacker!</a>
+            This skill was recently featured on <a href="https://lifehacker.com/how-to-use-alexa-to-help-you-prep-for-a-job-interview-1833024806" target="_blank" rel="noopener noreferrer">LifeHacker!</a>
           </p>
           <h3>
 			Alexa Skill - Ancient Alchemy
