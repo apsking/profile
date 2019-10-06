@@ -1,5 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+<<<<<<< HEAD
+=======
+import pic01 from '../images/pic01.jpg'
+import pic02 from '../images/pic02.jpg'
+>>>>>>> Add default content.
 
 class Main extends React.Component {
   render() {
@@ -26,6 +31,19 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
+<<<<<<< HEAD
+=======
+          <span className="image main">
+            <img src={pic01} alt="" />
+          </span>
+          <p>
+            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
+            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
+            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
+            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
+            By the way, check out my <a href="#work">awesome work</a>.
+          </p>
+>>>>>>> Add default content.
           <p>
             Hello! My name is Alex. I'm a life-long student, a software engineer by trade, and a
             tinkerer at heart. I have a full-stack background and have worked
@@ -33,6 +51,23 @@ class Main extends React.Component {
             Check out my <a href="https://www.linkedin.com/in/apsking/">LinkedIn</a> for
             a little more about me.
           </p>
+<<<<<<< HEAD
+=======
+          {close}
+        </article>
+
+        <article
+          id="projects"
+          className={`${this.props.article === 'projects' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Projects</h2>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+>>>>>>> Add default content.
           <p>
             Most recently, I have been interested in building voice applications
             on AWS and Amazon Alexa. I was one of the first developers to integrate
@@ -47,6 +82,7 @@ class Main extends React.Component {
           </p>
           {close}
         </article>
+<<<<<<< HEAD
 
         <article
           id="projects"
@@ -79,6 +115,8 @@ class Main extends React.Component {
 		  </p>
           {close}
         </article>
+=======
+>>>>>>> Add default content.
       </div>
     )
   }
