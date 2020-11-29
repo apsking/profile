@@ -57,6 +57,18 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <h3>
+            Gorilla
+          </h3>
+          <h4>
+            Stop monkeying around and build better scripts
+          </h4>
+          <p>
+            I found myself writing lots of GreaseMonkey scripts that quickly turned
+            into spaghetti, so I created <a href="https://www.npmjs.com/package/gorilla-build">Gorilla</a> - a blazing fast, TypeScript, build tool
+            for writing better GreaseMonkey scripts! It handles the complicated
+            build chain, so you don't have to.
+          </p>
+          <h3>
             Instagram - Puppy Can't Hang
           </h3>
           <p>
