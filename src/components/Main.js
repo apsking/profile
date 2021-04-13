@@ -62,8 +62,9 @@ class Main extends React.Component {
           <p>
             <a href="https://www.earthandfirebrewery.com/">Earth and Fire Brewing</a> is an
             awesome nano brewery in Paso Robles, CA. I built their website using Gatsby
-            and Netflify to give them full flexibility to manage their events, taplist,
-            and other page content, all without writing any code!
+            and Netlify in a way that will allow them to make future changes without writing any code. 
+            The website gives them full flexibility to manage their events, taplist,
+            and even update the menu behind the bar. Cheers!
           </p>
           <h3>
             Gorilla
