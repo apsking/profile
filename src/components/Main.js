@@ -6,9 +6,11 @@ class Main extends React.Component {
     let close = (
       <div
         className="close"
+        role="button"
         onClick={() => {
           this.props.onCloseArticle()
         }}
+        onKeyDown={(e) => { if (e.code === 27) { this.props.onCloseArticle(); }}}
       ></div>
     )
 
